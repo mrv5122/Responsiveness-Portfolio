@@ -215,3 +215,21 @@ input[type=submit] {
   background: #4aaaa5;
   border: 0 none;
 }
+
+/* Media Queries */
+/* for mobile phones */
+/*[class*="col-"] {
+  width: 100%; 
+} */
+@media only screen and (max-width: 640px) {
+ header {
+   position: static;
+ }
+/* for tablets */
+@media only screen and (max-width: 768px) {
+}
+
+/*for computers */
+@media only screen and (max-width: 980px) {
+  
+}
